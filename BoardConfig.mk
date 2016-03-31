@@ -49,8 +49,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 11964726272
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 
-# SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-
 # inherit from the proprietary version
 -include vendor/oppo/f1f/BoardConfigVendor.mk

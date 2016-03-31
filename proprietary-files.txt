@@ -190,13 +190,6 @@ vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# Fingerprint sensor
-etc/firmware/fingerprints.b00
-etc/firmware/fingerprints.b01
-etc/firmware/fingerprints.b02
-etc/firmware/fingerprints.b03
-etc/firmware/fingerprints.mdt
-
 # GPS
 bin/loc_launcher
 vendor/bin/slim_ap_daemon
