@@ -31,14 +31,14 @@ PRODUCT_COPY_FILES += \
 
 # ACDB Loader calibration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/15018/Bluetooth_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/General_cal.acdb:system/etc/acdbdata/15018/General_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/Global_cal.acdb:system/etc/acdbdata/15018/Global_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/Handset_cal.acdb:system/etc/acdbdata/15018/Handset_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/15018/Hdmi_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/Headset_cal.acdb:system/etc/acdbdata/15018/Headset_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/15018/Speaker_cal.acdb \
-    $(LOCAL_PATH)/audio/acdbdata/WorkspaceFile.qwsp:system/etc/acdbdata/15018/WorkspaceFile.qwsp
+    $(LOCAL_PATH)/audio/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/15109/Bluetooth_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/General_cal.acdb:system/etc/acdbdata/15109/General_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Global_cal.acdb:system/etc/acdbdata/15109/Global_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Handset_cal.acdb:system/etc/acdbdata/15109/Handset_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/15109/Hdmi_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Headset_cal.acdb:system/etc/acdbdata/15109/Headset_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/15109/Speaker_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/WorkspaceFile.qwsp:system/etc/acdbdata/15109/WorkspaceFile.qwsp
 
 # Factory reset protection
 PRODUCT_PROPERTY_OVERRIDES += \
