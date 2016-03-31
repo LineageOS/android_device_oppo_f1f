@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/oppo/r7plus
+LOCAL_PATH := device/oppo/f1f
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-$(call inherit-product-if-exists, vendor/oppo/r7plus/r7plus-vendor.mk)
+$(call inherit-product-if-exists, vendor/oppo/f1f/f1f-vendor.mk)
 
 # Inherit from msm8939-common
 $(call inherit-product, device/oppo/msm8939-common/msm8939.mk)

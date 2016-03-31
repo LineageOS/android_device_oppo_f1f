@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVICE=r7plus
+DEVICE=f1f
 VENDOR=oppo
 
 OUTDIR=vendor/$VENDOR/$DEVICE
@@ -126,7 +126,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),r7plus)
+ifeq (\$(TARGET_DEVICE),f1f)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
