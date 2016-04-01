@@ -75,7 +75,8 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.qcom.rc
+    init.qcom.rc \
+    loggy.sh
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
