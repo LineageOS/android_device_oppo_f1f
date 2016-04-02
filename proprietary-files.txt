@@ -5,14 +5,6 @@ vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
 
 # Audio
-etc/firmware/left.tfa9890.config
-etc/firmware/left.tfa9890.speaker
-etc/firmware/left.tfa9890_music_table.eq
-etc/firmware/left.tfa9890_music_table.preset
-etc/firmware/left.tfa9890_n1b12.patch
-etc/firmware/left.tfa9890_n1c2.patch
-etc/firmware/left.tfa9890_voice_table.eq
-etc/firmware/left.tfa9890_voice_table.preset
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -60,13 +52,11 @@ vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imx278.so
-vendor/lib/libmmcamera_ov8858_15011.so
-vendor/lib/libmmcamera_ov8858_15085.so
-vendor/lib/libmmcamera_ov8858.so
+vendor/lib/libmmcamera_ov8856.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_s5k3m2_15011.so
-vendor/lib/libmmcamera_s5k3m2.so
+vendor/lib/libmmcamera_s5k3l8.so
+vendor/lib/libmmcamera_s5k3l8_15109.so
 vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so
 vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so
 vendor/lib/libmmcamera_tintless_algo.so
@@ -104,70 +94,46 @@ vendor/lib/libactuator_rohm_bu64243gwz_camera.so
 vendor/lib/libactuator_rohm_bu64243gwz.so
 
 # Camera chromatix
-vendor/lib/libchromatix_imx278_common_panorama.so
-vendor/lib/libchromatix_imx278_common.so
-vendor/lib/libchromatix_imx278_default_video.so
-vendor/lib/libchromatix_imx278_hfr_120.so
-vendor/lib/libchromatix_imx278_hfr_60.so
-vendor/lib/libchromatix_imx278_liveshot.so
-vendor/lib/libchromatix_imx278_preview_binning.so
-vendor/lib/libchromatix_imx278_preview_panorama.so
-vendor/lib/libchromatix_imx278_preview.so
-vendor/lib/libchromatix_imx278_small_video.so
-vendor/lib/libchromatix_imx278_snapshot_hdr.so
-vendor/lib/libchromatix_imx278_snapshot_panorama.so
-vendor/lib/libchromatix_imx278_snapshot.so
 vendor/lib/libchromatix_imx278_video_binning.so
 vendor/lib/libchromatix_imx278_video_hdr.so
-vendor/lib/libchromatix_ov8858_15011_common.so
-vendor/lib/libchromatix_ov8858_15011_default_video.so
-vendor/lib/libchromatix_ov8858_15011_liveshot.so
-vendor/lib/libchromatix_ov8858_15011_preview_binding.so
-vendor/lib/libchromatix_ov8858_15011_preview_fb.so
-vendor/lib/libchromatix_ov8858_15011_preview.so
-vendor/lib/libchromatix_ov8858_15011_small_video.so
-vendor/lib/libchromatix_ov8858_15011_snapshot_fb.so
-vendor/lib/libchromatix_ov8858_15011_snapshot.so
-vendor/lib/libchromatix_ov8858_common.so
-vendor/lib/libchromatix_ov8858_default_video.so
-vendor/lib/libchromatix_ov8858_hfr_120fps.so
-vendor/lib/libchromatix_ov8858_hfr_60fps.so
-vendor/lib/libchromatix_ov8858_hfr_90fps.so
-vendor/lib/libchromatix_ov8858_liveshot.so
-vendor/lib/libchromatix_ov8858_preview_binding.so
-vendor/lib/libchromatix_ov8858_preview_fb.so
-vendor/lib/libchromatix_ov8858_preview.so
-vendor/lib/libchromatix_ov8858_small_video.so
-vendor/lib/libchromatix_ov8858_snapshot_fb.so
-vendor/lib/libchromatix_ov8858_snapshot.so
-vendor/lib/libchromatix_s5k3m2_15011_common_panorama.so
-vendor/lib/libchromatix_s5k3m2_15011_common.so
-vendor/lib/libchromatix_s5k3m2_15011_default_video.so
-vendor/lib/libchromatix_s5k3m2_15011_hfr_120fps.so
-vendor/lib/libchromatix_s5k3m2_15011_hfr_60fps.so
-vendor/lib/libchromatix_s5k3m2_15011_hfr_90fps.so
-vendor/lib/libchromatix_s5k3m2_15011_liveshot.so
-vendor/lib/libchromatix_s5k3m2_15011_preview_panorama.so
-vendor/lib/libchromatix_s5k3m2_15011_preview.so
-vendor/lib/libchromatix_s5k3m2_15011_small_video.so
-vendor/lib/libchromatix_s5k3m2_15011_snapshot_panorama.so
-vendor/lib/libchromatix_s5k3m2_15011_snapshot.so
-vendor/lib/libchromatix_s5k3m2_15011_video_hd.so
-vendor/lib/libchromatix_s5k3m2_15011_zsl.so
-vendor/lib/libchromatix_s5k3m2_common_panorama.so
-vendor/lib/libchromatix_s5k3m2_common.so
-vendor/lib/libchromatix_s5k3m2_default_video.so
-vendor/lib/libchromatix_s5k3m2_hfr_120fps.so
-vendor/lib/libchromatix_s5k3m2_hfr_60fps.so
-vendor/lib/libchromatix_s5k3m2_hfr_90fps.so
-vendor/lib/libchromatix_s5k3m2_liveshot.so
-vendor/lib/libchromatix_s5k3m2_preview_panorama.so
-vendor/lib/libchromatix_s5k3m2_preview.so
-vendor/lib/libchromatix_s5k3m2_small_video.so
-vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so
-vendor/lib/libchromatix_s5k3m2_snapshot.so
-vendor/lib/libchromatix_s5k3m2_video_hd.so
-vendor/lib/libchromatix_s5k3m2_zsl.so
+vendor/lib/libchromatix_ov8856_common.so
+vendor/lib/libchromatix_ov8856_default_video.so
+vendor/lib/libchromatix_ov8856_hfr_120fps.so
+vendor/lib/libchromatix_ov8856_hfr_60fps.so
+vendor/lib/libchromatix_ov8856_hfr_90fps.so
+vendor/lib/libchromatix_ov8856_liveshot.so
+vendor/lib/libchromatix_ov8856_preview_binding.so
+vendor/lib/libchromatix_ov8856_preview_fb.so
+vendor/lib/libchromatix_ov8856_preview.so
+vendor/lib/libchromatix_ov8856_small_video.so
+vendor/lib/libchromatix_ov8856_snapshot_fb.so
+vendor/lib/libchromatix_ov8856_snapshot.so
+vendor/lib/libchromatix_s5k3l8_15109_common.so
+vendor/lib/libchromatix_s5k3l8_15109_common_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_default_video.so
+vendor/lib/libchromatix_s5k3l8_15109_hfr_120fps.so
+vendor/lib/libchromatix_s5k3l8_15109_liveshot.so
+vendor/lib/libchromatix_s5k3l8_15109_preview.so
+vendor/lib/libchromatix_s5k3l8_15109_preview_cmcc.so
+vendor/lib/libchromatix_s5k3l8_15109_preview_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_small_video.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot_cmcc.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_zsl_off.so
+vendor/lib/libchromatix_s5k3l8_common.so
+vendor/lib/libchromatix_s5k3l8_common_panorama.so
+vendor/lib/libchromatix_s5k3l8_default_video.so
+vendor/lib/libchromatix_s5k3l8_hfr_120fps.so
+vendor/lib/libchromatix_s5k3l8_liveshot.so
+vendor/lib/libchromatix_s5k3l8_preview.so
+vendor/lib/libchromatix_s5k3l8_preview_cmcc.so
+vendor/lib/libchromatix_s5k3l8_preview_panorama.so
+vendor/lib/libchromatix_s5k3l8_small_video.so
+vendor/lib/libchromatix_s5k3l8_snapshot.so
+vendor/lib/libchromatix_s5k3l8_snapshot_cmcc.so
+vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3l8_zsl_off.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -290,6 +256,7 @@ vendor/lib/libOmxVdecHevc.so
 vendor/lib/libSHIMDivxDrm.so
 
 # Perf
+bin/msm_irqbalance
 vendor/bin/perfd
 vendor/lib64/libqti-perfd-client.so
 vendor/lib/libqti-perfd-client.so
@@ -396,9 +363,7 @@ vendor/lib64/libTimeService.so
 vendor/lib/libTimeService.so
 
 # Touchscreen
-etc/firmware/tp/15018/15018_FW_S3508_Samsung.img
-etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img
-etc/firmware/tp/15018/15018_Limit_Samsung.img
+etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin
 
 # Wifi
 bin/cnss-daemon
