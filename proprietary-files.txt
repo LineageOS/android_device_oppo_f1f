@@ -364,6 +364,3 @@ vendor/lib/libTimeService.so
 
 # Touchscreen
 etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin
-
-# Wifi
-bin/cnss-daemon
