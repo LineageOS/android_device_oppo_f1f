@@ -51,12 +51,11 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8856.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_s5k3l8.so
 vendor/lib/libmmcamera_s5k3l8_15109.so
+vendor/lib/libmmcamera_s5k3l8.so
 vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so
 vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so
 vendor/lib/libmmcamera_tintless_algo.so
@@ -94,8 +93,6 @@ vendor/lib/libactuator_rohm_bu64243gwz_camera.so
 vendor/lib/libactuator_rohm_bu64243gwz.so
 
 # Camera chromatix
-vendor/lib/libchromatix_imx278_video_binning.so
-vendor/lib/libchromatix_imx278_video_hdr.so
 vendor/lib/libchromatix_ov8856_common.so
 vendor/lib/libchromatix_ov8856_default_video.so
 vendor/lib/libchromatix_ov8856_hfr_120fps.so
@@ -108,31 +105,31 @@ vendor/lib/libchromatix_ov8856_preview.so
 vendor/lib/libchromatix_ov8856_small_video.so
 vendor/lib/libchromatix_ov8856_snapshot_fb.so
 vendor/lib/libchromatix_ov8856_snapshot.so
-vendor/lib/libchromatix_s5k3l8_15109_common.so
 vendor/lib/libchromatix_s5k3l8_15109_common_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_common.so
 vendor/lib/libchromatix_s5k3l8_15109_default_video.so
 vendor/lib/libchromatix_s5k3l8_15109_hfr_120fps.so
 vendor/lib/libchromatix_s5k3l8_15109_liveshot.so
-vendor/lib/libchromatix_s5k3l8_15109_preview.so
 vendor/lib/libchromatix_s5k3l8_15109_preview_cmcc.so
 vendor/lib/libchromatix_s5k3l8_15109_preview_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_preview.so
 vendor/lib/libchromatix_s5k3l8_15109_small_video.so
-vendor/lib/libchromatix_s5k3l8_15109_snapshot.so
 vendor/lib/libchromatix_s5k3l8_15109_snapshot_cmcc.so
 vendor/lib/libchromatix_s5k3l8_15109_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot.so
 vendor/lib/libchromatix_s5k3l8_15109_zsl_off.so
-vendor/lib/libchromatix_s5k3l8_common.so
 vendor/lib/libchromatix_s5k3l8_common_panorama.so
+vendor/lib/libchromatix_s5k3l8_common.so
 vendor/lib/libchromatix_s5k3l8_default_video.so
 vendor/lib/libchromatix_s5k3l8_hfr_120fps.so
 vendor/lib/libchromatix_s5k3l8_liveshot.so
-vendor/lib/libchromatix_s5k3l8_preview.so
 vendor/lib/libchromatix_s5k3l8_preview_cmcc.so
 vendor/lib/libchromatix_s5k3l8_preview_panorama.so
+vendor/lib/libchromatix_s5k3l8_preview.so
 vendor/lib/libchromatix_s5k3l8_small_video.so
-vendor/lib/libchromatix_s5k3l8_snapshot.so
 vendor/lib/libchromatix_s5k3l8_snapshot_cmcc.so
 vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3l8_snapshot.so
 vendor/lib/libchromatix_s5k3l8_zsl_off.so
 
 # Camera firmware
