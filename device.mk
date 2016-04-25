@@ -24,25 +24,6 @@ $(call inherit-product-if-exists, vendor/oppo/f1f/f1f-vendor.mk)
 # Inherit from msm8939-common
 $(call inherit-product, device/oppo/msm8939-common/msm8939.mk)
 
-# Screen density
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1080
-TARGET_SCREEN_WIDTH := 720
-
-# Density
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=320
-
-
-# Dalvik/HWUI configs
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
-
-
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
@@ -58,6 +39,21 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/acdbdata/Headset_cal.acdb:system/etc/acdbdata/15109/Headset_cal.acdb \
     $(LOCAL_PATH)/audio/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/15109/Speaker_cal.acdb \
     $(LOCAL_PATH)/audio/acdbdata/WorkspaceFile.qwsp:system/etc/acdbdata/15109/WorkspaceFile.qwsp
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1080
+TARGET_SCREEN_WIDTH := 720
+
+# Dalvik/HWUI configs
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+
+# Density
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=320
 
 # Factory reset protection
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -78,8 +74,9 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom  \
+    fstab.qcom \
     init.qcom.rc
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
