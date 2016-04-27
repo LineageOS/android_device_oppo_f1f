@@ -84,6 +84,9 @@ vendor/lib/libactuator_dw9800w_15062_camera.so
 vendor/lib/libactuator_dw9800w_15062.so
 vendor/lib/libactuator_dw9800w_camcorder.so
 vendor/lib/libactuator_dw9800w_camera.so
+vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so
+vendor/lib/libactuator_dw9800w_s5k3l8_camera.so
+vendor/lib/libactuator_dw9800w_s5k3l8.so
 vendor/lib/libactuator_dw9800w_s5k3m2_camcorder.so
 vendor/lib/libactuator_dw9800w_s5k3m2_camera.so
 vendor/lib/libactuator_dw9800w_s5k3m2.so
