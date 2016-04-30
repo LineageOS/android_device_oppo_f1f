@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/acdbdata/WorkspaceFile.qwsp:system/etc/acdbdata/15109/WorkspaceFile.qwsp
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1080
+TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Dalvik/HWUI configs
