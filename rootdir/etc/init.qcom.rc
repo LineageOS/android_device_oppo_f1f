@@ -36,3 +36,9 @@ service loggy /system/bin/sh  /loggy.sh
     class main
     user root
     oneshot
+
+service psensord /system/bin/psensord
+    class late_start
+    user system
+    group system
+    oneshot
