@@ -32,7 +32,6 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Kernel
 BOARD_DTBTOOL_ARGS := --force-v3
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
 TARGET_KERNEL_CONFIG := lineageos_f1f_defconfig
 
