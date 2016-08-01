@@ -1,0 +1,48 @@
+# Camera
+vendor/lib/libimage_stability.so
+
+# Camera autofocus
+vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so
+vendor/lib/libactuator_dw9800w_s5k3l8_camera.so
+vendor/lib/libactuator_dw9800w_s5k3l8.so
+
+# Camera chromatix
+vendor/lib/libchromatix_ov8856_common.so
+vendor/lib/libchromatix_ov8856_default_video.so
+vendor/lib/libchromatix_ov8856_hfr_120fps.so
+vendor/lib/libchromatix_ov8856_hfr_60fps.so
+vendor/lib/libchromatix_ov8856_hfr_90fps.so
+vendor/lib/libchromatix_ov8856_liveshot.so
+vendor/lib/libchromatix_ov8856_preview_binding.so
+vendor/lib/libchromatix_ov8856_preview_fb.so
+vendor/lib/libchromatix_ov8856_preview.so
+vendor/lib/libchromatix_ov8856_small_video.so
+vendor/lib/libchromatix_ov8856_snapshot_fb.so
+vendor/lib/libchromatix_ov8856_snapshot.so
+vendor/lib/libchromatix_s5k3l8_15109_common_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_common.so
+vendor/lib/libchromatix_s5k3l8_15109_default_video.so
+vendor/lib/libchromatix_s5k3l8_15109_hfr_120fps.so
+vendor/lib/libchromatix_s5k3l8_15109_liveshot.so
+vendor/lib/libchromatix_s5k3l8_15109_preview_cmcc.so
+vendor/lib/libchromatix_s5k3l8_15109_preview_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_preview.so
+vendor/lib/libchromatix_s5k3l8_15109_small_video.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot_cmcc.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot_panorama.so
+vendor/lib/libchromatix_s5k3l8_15109_snapshot.so
+vendor/lib/libchromatix_s5k3l8_15109_zsl_off.so
+
+# Camera eeprom
+vendor/lib/libmmcamera_gt24c64a_eeprom.so
+
+# Camera sensors
+vendor/lib/libmmcamera_ov8856.so
+vendor/lib/libmmcamera_s5k3l8_15109.so
+
+# Sensors
+bin/psensord
+vendor/lib64/libcalmodule_memsic.so
+
+# Touchscreen
+etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin
