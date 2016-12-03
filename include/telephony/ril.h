@@ -1052,6 +1052,8 @@ typedef struct
   int           ims_subscription_app_index;      /* value < RIL_CARD_MAX_APPS, -1 if none */
   int           num_applications;                /* value <= RIL_CARD_MAX_APPS */
   RIL_AppStatus applications[RIL_CARD_MAX_APPS];
+  int           f1f_debug;                       /* place to put oppo_f1f extra debug element */
+  int           f1f_debug2;                     /* place to put oppo_f1f extra debug2 element */
 } RIL_CardStatus_v6;
 
 /** The result of a SIM refresh, returned in data[0] of RIL_UNSOL_SIM_REFRESH
