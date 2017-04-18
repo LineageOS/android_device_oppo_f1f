@@ -19,8 +19,6 @@ LOCAL_PATH := device/oppo/f1f
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-$(call inherit-product-if-exists, vendor/oppo/f1f/f1f-vendor.mk)
-
 # Inherit from msm8939-common
 $(call inherit-product, device/oppo/msm8939-common/msm8939.mk)
 
@@ -78,3 +76,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+
+# Call the proprietary setup
+$(call inherit-product, vendor/oppo/f1f/f1f-vendor.mk)
