@@ -1,6 +1,3 @@
-# Camera
-vendor/lib/libimage_stability.so
-
 # Camera autofocus
 vendor/lib/libactuator_dw9800w_s5k3l8_camcorder.so
 vendor/lib/libactuator_dw9800w_s5k3l8_camera.so
