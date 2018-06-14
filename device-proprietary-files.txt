@@ -38,8 +38,8 @@ vendor/lib/libmmcamera_ov8856.so
 vendor/lib/libmmcamera_s5k3l8_15109.so
 
 # Sensors
-bin/psensord
+bin/psensord:vendor/bin/psensord
 vendor/lib64/libcalmodule_memsic.so
 
 # Touchscreen
-etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin
+etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin:vendor/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin
